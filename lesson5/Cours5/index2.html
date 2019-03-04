@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <h1>Some title</h1>
+    
+    <article id="js-article">
+        <h2>Article title</h2>
+          <p>Article content</p>
+        </article>
+        
+        <input type="text" id="js-search2" placeholder="Search something..." value="Poodles">
+        
+        <hr>
+        
+        <div class="container">
+            <form class="form-row" id="js-search-form">
+                
+                <div class="col-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">Search</div>
+                        </div>
+                        <input type="text" class="form-control" id="js-search" placeholder="Recherche">
+                    </div>
+                </div>
+                
+                <div class="col-auto">
+                    <button class="btn btn-primary" type="submit">Rechercher</button>
+                </div>
+            </form>
+            
+            <div id="js-search-result"></div>
+        </div>
+        
+        <hr>
+
+        <div id="js-alert" class="alert">
+                <p>Very important message</p>
+              </div>
+              <button id="js-btn" class="btn btn-secondary">Change alert state</button>
+
+              <hr>
+
+              <div class="alert alert-danger" id="js-danger-alert">
+                    <p>My alert</p>
+                    <button class="btn btn-success" id="js-danger-alert-btn">Ok</button>
+                  </div>
+
+        <hr>
+
+        <div class="container">
+            <button id="js-btn2">Click me !</button>
+        </div>
+        
+        <hr>
+
+        <div id="js-hovered"></div>
+
+        <style>
+        #js-hovered {
+  background-color: blue;
+  width: 7rem;
+  height: 7rem;
+}
+</style>
+
+<hr>
+
+<style>.tooltip-wrapper {
+        position: relative;
+      }
+      
+      .tooltip {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0,0,0,.7);
+        color: #fff;
+        opacity: 1;
+        transform: translateY(100%);
+      }</style>
+
+<p class="tooltip-wrapper" id="js-tooltip-wrapper">
+        <span class="tooltip" id="js-tooltip">En informatique, un langage de programmation est une notation conventionnelle destinée à formuler des algorithmes et produire des programmes informatiques qui les appliquent.</span>
+        JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs avec l'utilisation (par exemple) de Node.js.
+      </p>
+
+
+<hr>
+
+<div class="alert alert-primary" style="display: none;" id="js-alert2">
+        Hide me!
+        <button id="js-hide-alert">✕</button>
+      </div>
+      
+      <button class="btn btn-primary" id="js-show-alert">Show alert</button>
+
+
+              <button class="btn btn-success" id="js-btn-fade-in">Fade In</button>
+              <button class="btn btn-danger" id="js-btn-fade-out">Fade Out</button>
+              <div style="background:#2E9AFE; width:200px; height:200px; margin-top:30px;" id="js-div-fade-in-out"></div>
+
+              <hr>
+
+              <style>
+              #js-animation-1 {
+                  position: relative;
+                  width: 100px;
+                  height: 100px;
+                  background-color: aqua;
+              }
+              </style>
+              
+              <div id="js-animation-1"></div>
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        
+        <script src="main2.js"></script>
+
+
+
+</body>
+</html>
